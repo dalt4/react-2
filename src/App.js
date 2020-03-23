@@ -1,13 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from "./components/header";
+import Navbar from "./components/navbar";
+import Main from "./components/main";
 
 function App() {
-  return (
-    <div className="App">
-
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header/>
+            <Navbar/>
+            <Main/>
+        </div>
+    );
 }
 
 export default App;

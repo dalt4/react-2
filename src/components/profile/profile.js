@@ -1,7 +1,7 @@
 import React from 'react';
-import classes from './main.module.css';
+import classes from './profile.module.css';
 
-const Main = () => {
+const Profile = () => {
     return (
         <main className={classes.main}>
             <div className={classes.picture}/>
@@ -18,7 +18,7 @@ const Main = () => {
             <div className={classes.posts}>
                 <h2>My posts</h2>
                 <form action="#">
-                    <input type="text-area" placeholder='yours news...'/>
+                    <textarea  placeholder='yours news...'/>
                     <input type="submit" value='Send'/>
                 </form>
                 <div className={classes.post}>
@@ -35,4 +35,4 @@ const Main = () => {
     )
 };
 
-export default Main;
+export default Profile;

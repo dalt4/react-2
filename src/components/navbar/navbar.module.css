@@ -1,12 +1,13 @@
 .navbar {
     width: 250px;
-    height: calc(100vh - 115px);
+    min-height: calc(100vh - 115px);
     background: #4A76A8;
     margin-right: 15px;
     padding: 15px;
     color: white;
     font-size: 24px;
     line-height: 50px;
+    align-self: stretch;
 }
 
 .navbar nav {

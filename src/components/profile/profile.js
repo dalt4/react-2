@@ -1,9 +1,10 @@
 import React from 'react';
 import classes from './profile.module.css';
+import Posts from "./posts/posts";
 
 const Profile = () => {
     return (
-        <main className={classes.main}>
+        <main className='main'>
             <div className={classes.picture}/>
             <div className={classes.profile}>
                 <div className={classes.avatar}/>
@@ -15,22 +16,7 @@ const Profile = () => {
                     <p>Web site:</p>
                 </div>
             </div>
-            <div className={classes.posts}>
-                <h2>My posts</h2>
-                <form action="#">
-                    <textarea  placeholder='yours news...'/>
-                    <input type="submit" value='Send'/>
-                </form>
-                <div className={classes.post}>
-                    <div className={classes.avatar}/>
-                    <p>No future</p>
-                </div>
-                <div className={classes.post}>
-                    <div className={classes.avatar}/>
-                    <p>No future</p>
-                </div>
-            </div>
-
+            <Posts/>
         </main>
     )
 };

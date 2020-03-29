@@ -1,0 +1,13 @@
+
+.posts {
+    text-align: left;
+}
+
+.posts form {
+    margin-bottom: 50px;
+}
+
+.posts textarea {
+    width: 100%;
+    height: 75px;
+}

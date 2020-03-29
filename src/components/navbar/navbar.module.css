@@ -44,3 +44,14 @@
     border-radius: 50%;
     background: #55677d;
 }
+a {
+    opacity: .7;
+}
+a:active,
+a:focus {
+    opacity: 1;
+}
+
+a:hover {
+    transform: scale(1.05);
+}
